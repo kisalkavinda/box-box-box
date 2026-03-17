@@ -100,7 +100,12 @@ if __name__ == "__main__":
     try:
         data = json.load(sys.stdin)
         positions = simulate_race(data)
-        print(json.dumps({"finishing_positions": positions}))
+        # Submission requirement: include race_id and finishing_positions
+        output = {
+            "race_id": data.get('race_id', 'UNKNOWN'),
+            "finishing_positions": positions
+        }
+        print(json.dumps(output))
     except Exception as e:
         sys.stderr.write(f"Error: {str(e)}\n")
         sys.exit(1)
