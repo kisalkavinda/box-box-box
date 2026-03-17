@@ -1,0 +1,57 @@
+{
+  "offsets": {
+    "SOFT": -0.7700974530516741,
+    "MEDIUM": 0.0,
+    "HARD": 0.6160779624413393
+  },
+  "degradation": {
+    "SOFT": 1.033390676544454,
+    "MEDIUM": 0.5037009244508267,
+    "HARD": 0.24134123443168767
+  },
+  "thresholds": {
+    "SOFT": 9.786457098344492,
+    "MEDIUM": 19.67903087218363,
+    "HARD": 29.490368591762866
+  },
+  "power_factors": {
+    "SOFT": 1.1161950953349673,
+    "MEDIUM": 1.1165220898582426,
+    "HARD": 1.1161405964903017
+  },
+  "temp_factors": {
+    "SOFT": 0.008985612659367825,
+    "MEDIUM": 0.008985612659367825,
+    "HARD": 0.009206742970906954
+  },
+  "track_pit_penalties": {
+    "Bahrain": -4.7,
+    "COTA": -4.6,
+    "Monaco": -9.6,
+    "Monza": -6.5,
+    "Silverstone": -8.7,
+    "Spa": -4.4,
+    "Suzuka": -5.9
+  },
+  "pit_exit_penalty": -7.0,
+  "temp_ref": 30.0,
+  "track_deg_multipliers": {
+    "Bahrain": 1.0,
+    "COTA": 1.0,
+    "Monaco": 0.97,
+    "Monza": 1.0,
+    "Silverstone": 0.98,
+    "Spa": 1.0,
+    "Suzuka": 1.0
+  },
+  "temp_hot_factors": {
+    "SOFT": -0.002,
+    "MEDIUM": -0.002,
+    "HARD": -0.002
+  },
+  "temp_cold_factors": {
+    "SOFT": 0.002,
+    "MEDIUM": 0.0,
+    "HARD": 0.0
+  }
+}
