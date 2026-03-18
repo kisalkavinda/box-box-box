@@ -1,4 +1,17 @@
 {
+  "_HELP": {
+    "offsets": "Fresh tire lap time difference relative to MEDIUM (in seconds).",
+    "degradation": "Base performance loss rate per lap after reaching the threshold.",
+    "thresholds": "Number of laps a tire can run before performance starts to degrade.",
+    "power_factors": "The exponent for the degradation curve (rate * (age - threshold)^power).",
+    "temp_factors": "Linear sensitivity of degradation to track temperature.",
+    "track_pit_penalties": "Track-specific adjustments to simulated pit stop time loss.",
+    "pit_exit_penalty": "Fallback pit entry/exit penalty if track is not listed.",
+    "temp_ref": "Reference temperature (Celsius) used for delta-temp calculations.",
+    "track_deg_multipliers": "Scaling factor for tire wear based on track surface abrasive properties.",
+    "temp_hot_factors": "Extra degradation penalty/bonus for temperatures above reference.",
+    "temp_cold_factors": "Extra degradation penalty/bonus for temperatures below reference."
+  },
   "offsets": {
     "SOFT": -0.7700974530516741,
     "MEDIUM": 0.0,
